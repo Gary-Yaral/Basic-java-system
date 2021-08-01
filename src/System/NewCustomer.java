@@ -39,8 +39,8 @@ public class NewCustomer extends javax.swing.JInternalFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         dataTable = new javax.swing.JTable();
-        saveNewTechForm1 = new javax.swing.JButton();
-        saveNewTechForm2 = new javax.swing.JButton();
+        deleteTech = new javax.swing.JButton();
+        updateTech = new javax.swing.JButton();
         jScrollPane7 = new javax.swing.JScrollPane();
         techLastName = new javax.swing.JTextPane();
 
@@ -128,21 +128,21 @@ public class NewCustomer extends javax.swing.JInternalFrame {
                 .addGap(223, 223, 223))
         );
 
-        saveNewTechForm1.setBackground(new java.awt.Color(153, 0, 0));
-        saveNewTechForm1.setForeground(new java.awt.Color(255, 255, 255));
-        saveNewTechForm1.setText("Eliminar");
-        saveNewTechForm1.addActionListener(new java.awt.event.ActionListener() {
+        deleteTech.setBackground(new java.awt.Color(153, 0, 0));
+        deleteTech.setForeground(new java.awt.Color(255, 255, 255));
+        deleteTech.setText("Eliminar");
+        deleteTech.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                saveNewTechForm1ActionPerformed(evt);
+                deleteTechActionPerformed(evt);
             }
         });
 
-        saveNewTechForm2.setBackground(new java.awt.Color(0, 102, 102));
-        saveNewTechForm2.setForeground(new java.awt.Color(255, 255, 255));
-        saveNewTechForm2.setText("Modificar");
-        saveNewTechForm2.addActionListener(new java.awt.event.ActionListener() {
+        updateTech.setBackground(new java.awt.Color(0, 102, 102));
+        updateTech.setForeground(new java.awt.Color(255, 255, 255));
+        updateTech.setText("Modificar");
+        updateTech.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                saveNewTechForm2ActionPerformed(evt);
+                updateTechActionPerformed(evt);
             }
         });
 
@@ -186,12 +186,12 @@ public class NewCustomer extends javax.swing.JInternalFrame {
                                                 .addComponent(jScrollPane4)
                                                 .addGroup(layout.createSequentialGroup()
                                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(saveNewTechForm2)
+                                                        .addComponent(updateTech)
                                                         .addComponent(jLabel5))
                                                     .addGap(0, 0, Short.MAX_VALUE)))))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addGap(180, 180, 180)
-                                        .addComponent(saveNewTechForm1)))))
+                                        .addComponent(deleteTech)))))
                         .addGap(40, 40, 40))))
         );
         layout.setVerticalGroup(
@@ -222,8 +222,8 @@ public class NewCustomer extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(saveNewTechForm)
                     .addComponent(cleanNewTechForm)
-                    .addComponent(saveNewTechForm2)
-                    .addComponent(saveNewTechForm1))
+                    .addComponent(updateTech)
+                    .addComponent(deleteTech))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(20, Short.MAX_VALUE))
@@ -240,13 +240,13 @@ public class NewCustomer extends javax.swing.JInternalFrame {
         validateTechForm();
     }//GEN-LAST:event_saveNewTechFormActionPerformed
 
-    private void saveNewTechForm1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveNewTechForm1ActionPerformed
+    private void deleteTechActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteTechActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_saveNewTechForm1ActionPerformed
+    }//GEN-LAST:event_deleteTechActionPerformed
 
-    private void saveNewTechForm2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveNewTechForm2ActionPerformed
+    private void updateTechActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateTechActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_saveNewTechForm2ActionPerformed
+    }//GEN-LAST:event_updateTechActionPerformed
 
     private void cleanNewTechForm(){
         techAddress.setText("");
@@ -304,6 +304,7 @@ public class NewCustomer extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton cleanNewTechForm;
     private javax.swing.JTable dataTable;
+    private javax.swing.JButton deleteTech;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -318,12 +319,11 @@ public class NewCustomer extends javax.swing.JInternalFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private java.awt.Panel panel1;
     private javax.swing.JButton saveNewTechForm;
-    private javax.swing.JButton saveNewTechForm1;
-    private javax.swing.JButton saveNewTechForm2;
     private javax.swing.JTextPane techAddress;
     private javax.swing.JTextPane techCellphone;
     private javax.swing.JTextPane techID;
     private javax.swing.JTextPane techLastName;
     private javax.swing.JTextPane techName;
+    private javax.swing.JButton updateTech;
     // End of variables declaration//GEN-END:variables
 }

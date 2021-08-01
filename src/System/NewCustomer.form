@@ -85,7 +85,7 @@
                                               <Component id="jScrollPane4" max="32767" attributes="0"/>
                                               <Group type="102" attributes="0">
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="saveNewTechForm2" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="updateTech" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -95,7 +95,7 @@
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
-                                      <Component id="saveNewTechForm1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="deleteTech" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -139,8 +139,8 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="saveNewTechForm" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cleanNewTechForm" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="saveNewTechForm2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="saveNewTechForm1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="updateTech" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="deleteTech" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" pref="214" max="-2" attributes="0"/>
@@ -323,7 +323,7 @@
         </Container>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="saveNewTechForm1">
+    <Component class="javax.swing.JButton" name="deleteTech">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="99" type="rgb"/>
@@ -334,10 +334,10 @@
         <Property name="text" type="java.lang.String" value="Eliminar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveNewTechForm1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteTechActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="saveNewTechForm2">
+    <Component class="javax.swing.JButton" name="updateTech">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -348,7 +348,7 @@
         <Property name="text" type="java.lang.String" value="Modificar"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveNewTechForm2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateTechActionPerformed"/>
       </Events>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane7">
