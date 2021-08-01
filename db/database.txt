@@ -1,0 +1,11 @@
+create database System;
+
+use System;
+
+create table(
+    tech_id varchar(15) not null primary key,
+    tech_name varchar(250) not null,
+    tech_lastname varchar(250) not null,
+    tech_address varchar(250) not null,
+    tech_cellphone varchar(250) not null
+);
