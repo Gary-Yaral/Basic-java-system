@@ -2,4 +2,4 @@
 First project on this repository
 
 ## Author
---Gary Yaral - Developer
+* Gary Yaral - Developer
